@@ -3,7 +3,7 @@ import random
 import time
 import string
 import keyboard
-11
+
 
 def random_typing():
     text = ''.join(random.choices(string.ascii_letters + string.digits, k=5))
